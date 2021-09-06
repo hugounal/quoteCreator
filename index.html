@@ -14,44 +14,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
 </head>
 
 <body>
 
-    <div class="quote-container" id="quote-container">
-        <!-- Quote -->
-        <div class="quote-text">
-            <i class="fas fa-quote-left">
-                <span id="quote"></span>
-            </i>
-        </div>
-        <!-- Author -->
-        <div class="quote-author">
-            <span id="author"></span>
-        </div>
-        <!-- Button -->
-        <div class="button-container">
-            <button class="twitter-button" id="twitter" tittle="Tweet This!">
-                <i class="fab fa-twitter"></i>
-            </button>
-            <button id="new-quote"> New Quote</button>
+    <label for="check" class="btn btn-outline-dark">Change Background</label>
+    <input type="checkbox" id="check" />
+    <div class="background">
+
+        <div class="quote-container" id="quote-container">
+            <!-- Quote -->
+            <div class="quote-text">
+                <i class="fas fa-quote-left">
+                    <span id="quote"></span>
+                </i>
+            </div>
+            <!-- Author -->
+            <div class="quote-author">
+                <span id="author"></span>
+            </div>
+            <!-- Button -->
+            <div class="button-container">
+                <button class="twitter-button" id="twitter" tittle="Tweet This!">
+                    <i class="fab fa-twitter"></i>
+                </button>
+                <button id="new-quote"> New Quote</button>
+            </div>
         </div>
     </div>
 
-    <!-- Loader -->
-
-    <div class="loader"></div>
-
-
-
-
-    <!-- Script -->
-
-    <!-- ANCHOR -->
-    <!-- TODO -->
-    <!-- NOTE -->
-    <!-- REVIEW -->
-    <!-- FIXME -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
 
     <script src="app.js"></script>
 </body>

@@ -5,8 +5,6 @@ const twitterBtn = document.querySelector('#twitter');
 const newQuoteBtn = document.querySelector('#new-quote');
 const loader = document.querySelector('.loader');
 
-
-
 let apiQuotes = [];
 
 // Show Loading
@@ -21,8 +19,6 @@ function complete() {
     quoteContainer.hidden = false;
     loader.hidden = true;
 }
-
-
 
 // Show New Code
 
@@ -75,16 +71,13 @@ function tweetQuote() {
     window.open(twitterUrl, '_blank');
 }
 
-
-
-
 // Event Listeners
 
 newQuoteBtn.addEventListener('click', newQuote);
 twitterBtn.addEventListener('click', tweetQuote)
 
-
 // On Load
 
 getQuotes();
+
 
